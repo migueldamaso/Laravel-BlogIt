@@ -1,5 +1,5 @@
 {
-    "name": "migueldamaso/blogger",
+    "name": "migueldamaso/blogit",
     "type": "library",
     "require": {
         "illuminate/support": "^5.5"
@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Blogger\\": "blogger"
+            "Blogit\\": "blogger"
         }
     },
     "require-dev": {
