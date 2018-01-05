@@ -1,0 +1,24 @@
+{
+    "name": "migueldamaso/blogger",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^5.5"
+    },
+    "authors": [
+        {
+            "name": "Miguel",
+            "email": "migueldamaso@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Blogger\\": "blogger"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "scripts": {
+        "test": ".\\vendor\\bin\\phpunit"
+    }
+}
