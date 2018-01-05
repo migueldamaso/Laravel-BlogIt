@@ -1,15 +1,15 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Blogger\Blogger;
+use Blogit\Blogit;
 
-class BloggerTest extends TestCase
+class BlogitTest extends TestCase
 {
     public function testBlogger()
     {
-        $blogger = new Blogger('Hello World');
+        $blogger = new Blogit();
         
-        $output = $blogger->test();
+        $output = $blogger->test('Hello World');
 
         $this->assertEquals('Hello World', $output);
     }

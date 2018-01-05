@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Blogit\\": "blogger"
+            "Blogit\\": "src"
         }
     },
     "require-dev": {
@@ -20,5 +20,15 @@
     },
     "scripts": {
         "test": ".\\vendor\\bin\\phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers":[
+                "Blogit\\Providers\\ServiceProvider"
+            ],
+            "aliases": {
+                "Blogit": "Blogit\\Facades\\Facade"
+            }
+        }
     }
 }
